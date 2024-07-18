@@ -22,12 +22,11 @@ def index():
         'name': employee.name,
         'salary': employee.salary,
         'email': employee.email,
-        'role' : employee.role
+        'role': employee.role
     } for employee in employees])
 
 @app.route("/show/<int:id>", methods=["GET"])
 def check(id):
-    print("heyhh")
     try:
         employee = Employee.query.get_or_404(id)
         return jsonify({
@@ -47,8 +46,12 @@ def create():
     salary = data.get('salary')
     email = data.get('email')
     roles = data.get('role')
-    if('@' not in email):
+
+    try:
+        validate_email(email)
+    except EmailNotValidError:
         return "Invalid Email"
+
     if(not isinstance(salary, int)):
         return "Invalid Salary"
     new_employee = Employee(name=name, salary=salary, email=email, role=roles)
