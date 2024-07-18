@@ -27,6 +27,7 @@ def index():
 
 @app.route("/show/<int:id>", methods=["GET"])
 def check(id):
+    print("heyhh")
     try:
         employee = Employee.query.get_or_404(id)
         return jsonify({
