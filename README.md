@@ -24,12 +24,6 @@
 ### Output
 <img width="1156" alt="image" src="https://github.com/user-attachments/assets/25c9c890-d56c-4cb1-9aaf-4f8f9e8ffffe">
 
-### PATCH Command
-<img width="1148" alt="image" src="https://github.com/user-attachments/assets/99321402-8480-4b01-a7bb-0579b9dc30b4">
-
-### Output
-<img width="1140" alt="image" src="https://github.com/user-attachments/assets/4d34dfa9-a45d-47d2-a673-2341fa2c2a7b">
-
 ### DELETE Command
 <img width="1187" alt="image" src="https://github.com/user-attachments/assets/8bae6eda-6343-4151-80a9-c58185fcfda3">
 
