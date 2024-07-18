@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!requirements.txt
+!app.py
+
+# Ignore all directories
+*/
+
+# Except the .git directory
+!.git/
