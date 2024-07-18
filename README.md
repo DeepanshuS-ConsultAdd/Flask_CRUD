@@ -6,7 +6,6 @@
 ##### POST (/create): Create a new employee record.
 ##### PUT (/update/<employee_id>): Update an existing employee record.
 ##### DELETE (/delete/<employee_id>): Delete an employee record.
-##### PATCH (/change/<employee_id>): Partially update an employee record.
 ###### Each endpoint accepts and returns data in JSON format.
 
 ### GET Screenshot
